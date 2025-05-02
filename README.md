@@ -130,7 +130,7 @@ ToActivity(MainActivity.this, Main2Activity.class, params);
 startForResult(
     MainActivity.this, 
     Main2Activity.class, 
-    new .NavParams().put("title", "编辑资料"),
+    new NavParams().put("title", "编辑资料"),
     new ResultCallback() {
         @Override
         public void onResult(NavParams params) {
