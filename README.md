@@ -89,7 +89,7 @@ runDelayed(new Runnable() {
    @Override
    public void run() {
      System.out.println("延迟执行");
-   }, 1000);
+}, 1000);
 
 
 /**
@@ -120,10 +120,10 @@ mClick(id -> {
 ToActivity(MainActivity.this, Main2Activity.class);
 
 // Activity带参数跳转
-NavHelper.NavParams params = new NavHelper.NavParams()
+NavParams params = new NavParams()
     .put("username", "张三")
     .put("age", 25)
-    ,put("ad", true)
+    .put("ad", true)
 ToActivity(MainActivity.this, Main2Activity.class, params);
 
 // Activity带参数跳转并期待返回结果
