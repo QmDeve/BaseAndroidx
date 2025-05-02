@@ -1,0 +1,62 @@
+[versions]
+agp = "8.11.0-alpha08"
+appcompat = "1.7.0"
+crashreport = "latest.release"
+dialogx = "0.0.49"
+glide = "5.0.0-rc01"
+lottie = "6.6.6"
+material = "1.12.0"
+gradle = "8.11.0-alpha08"
+kotlinGradlePlugin = "2.1.20"
+activity = "1.10.1"
+logger = "2.2.0"
+gsonVersion = "2.13.1"
+kotlin = "2.1.20"
+coreKtx = "1.16.0"
+photopreview = "2.5.5"
+photoview = "2.3.0"
+resthttp = "1.0.9"
+rxandroid = "3.0.2"
+rxjava = "3.1.10"
+rxkotlin = "3.0.1"
+utilcodex = "1.31.1"
+viewpager2 = "1.1.0"
+viewpump = "2.1.1"
+xxpermissions = "21.2"
+constraintlayout = "2.2.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+
+[libraries]
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+crashreport = { module = "com.tencent.bugly:crashreport", version.ref = "crashreport" }
+dialogx = { module = "com.kongzue.dialogx:DialogX", version.ref = "dialogx" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+logger = { module = "com.orhanobut:logger", version.ref = "logger" }
+google-gson = { module = "com.google.code.gson:gson", version.ref = "gsonVersion" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+photopreview = { module = "com.github.wanggaowan:PhotoPreview", version.ref = "photopreview" }
+photoview = { module = "com.github.chrisbanes:PhotoView", version.ref = "photoview" }
+resthttp = { module = "cn.alien95:resthttp", version.ref = "resthttp" }
+rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxandroid" }
+rxjava = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
+rxkotlin = { module = "io.reactivex.rxjava3:rxkotlin", version.ref = "rxkotlin" }
+utilcodex = { module = "com.blankj:utilcodex", version.ref = "utilcodex" }
+viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+viewpump = { module = "io.github.inflationx:viewpump", version.ref = "viewpump" }
+xxpermissions = { module = "com.github.getActivity:XXPermissions", version.ref = "xxpermissions" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
