@@ -23,8 +23,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "JanesourceApp"
-include ':app'
-include ':Core'
-include ':Blur'
+rootProject.name = "BaseAndroidx"
 include ':BaseAndroidx'
