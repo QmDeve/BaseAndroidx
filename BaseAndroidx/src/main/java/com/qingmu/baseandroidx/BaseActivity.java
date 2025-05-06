@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.IBinder;
 import android.os.Looper;
 import android.util.Log;
 import android.view.View;
@@ -343,6 +344,36 @@ public class BaseActivity extends AppCompatActivity {
 
         public NavParams put(String key, String value) {
             bundle.putString(key, value);
+            return this;
+        }
+
+        public NavParams put(String key, boolean value) {
+            bundle.putBoolean(key, value);
+            return this;
+        }
+
+        public NavParams put(String key, int value) {
+            bundle.putInt(key, value);
+            return this;
+        }
+
+        public NavParams put(String key, byte value) {
+            bundle.putByte(key, value);
+            return this;
+        }
+
+        public NavParams put(String key, long value) {
+            bundle.putLong(key, value);
+            return this;
+        }
+
+        public NavParams put(String key, IBinder value) {
+            bundle.putBinder(key, value);
+            return this;
+        }
+
+        public NavParams put(String key, Bundle value) {
+            bundle.putBundle(key, value);
             return this;
         }
 
