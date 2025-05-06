@@ -25,7 +25,7 @@ allprojects {
 ```
 2.引入BaseAndroidx
 </br>
-最新版本：[![](https://jitpack.io/v/XunMus/BaseAndroidx.svg)](https://jitpack.io/#XunMus/BaseAndroidx)
+[![](https://jitpack.io/v/QmDeve/BaseAndroidx.svg)](https://jitpack.io/#QmDeve/BaseAndroidx)
 ```
 dependencies {
    implementation 'com.github.QmDeve:BaseAndroidx:Tag'
@@ -39,9 +39,9 @@ import com.qingmu.baseandroidx.BaseActivity;
 
 public class MainActivity extends BaseActivity {
 ```
-</br>
+
 在你的Fragment中继承BaseFragment
-```
+``` java
 import com.qingmu.baseandroidx.BaseFragment;
 
 public class MainFragment extends BaseFragment {
@@ -190,7 +190,7 @@ sptopx(Context context, int spValue);
 
 ## 更新日志
 
-### 2025-05-07：v0.0.1-Beta-rc04
+#### 2025-05-07：v0.0.1-Beta-rc05
 1.跳转Activity支持传递更多类型参数
 2.封装了Fragment
 3.修复部分bug
