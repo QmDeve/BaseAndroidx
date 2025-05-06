@@ -1,5 +1,5 @@
 # BaseAndroidx
-[![](https://jitpack.io/v/XunMus/BaseAndroidx.svg)](https://jitpack.io/#XunMus/BaseAndroidx)
+[![](https://jitpack.io/v/QmDeve/BaseAndroidx.svg)](https://jitpack.io/#QmDeve/BaseAndroidx)
 [![](https://camo.githubusercontent.com/c3b7a50769cb50bd6e9ac6ce04c47435001631dee3c8cd946fdceafe02d779d8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d417061636865253230322e302d7265642e737667)](http://www.apache.org/licenses/LICENSE-2.0)
 
 
@@ -39,6 +39,14 @@ import com.qingmu.baseandroidx.BaseActivity;
 
 public class MainActivity extends BaseActivity {
 ```
+</br>
+在你的Fragment中继承BaseFragment
+```
+import com.qingmu.baseandroidx.BaseFragment;
+
+public class MainFragment extends BaseFragment {
+```
+
 
 #### 目前的全部方法
 ``` java
@@ -123,7 +131,7 @@ ToActivity(MainActivity.this, Main2Activity.class);
 NavParams params = new NavParams()
     .put("username", "张三")
     .put("age", 25)
-    .put("ad", true)
+    .put("ad", true);
 ToActivity(MainActivity.this, Main2Activity.class, params);
 
 // Activity带参数跳转并期待返回结果
@@ -182,7 +190,15 @@ sptopx(Context context, int spValue);
 
 ## 更新日志
 
-#### 2025-05-02：
-v0.0.1-Beta-rc03
+### 2025-05-07：v0.0.1-Beta-rc04
+1.跳转Activity支持传递更多类型参数
+2.封装了Fragment
+3.修复部分bug
 </br>
+#### 2025-05-02：v0.0.1-Beta-rc03
 BaseAndroidx 测试版发布。
+
+## 联系方式
+QQ：3100602519
+</br>
+QQ群：689861300
