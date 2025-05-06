@@ -192,7 +192,9 @@ sptopx(Context context, int spValue);
 
 #### 2025-05-07：v0.0.1-Beta-rc05
 1.跳转Activity支持传递更多类型参数
+<br>
 2.封装了Fragment
+<br>
 3.修复部分bug
 </br>
 #### 2025-05-02：v0.0.1-Beta-rc03
